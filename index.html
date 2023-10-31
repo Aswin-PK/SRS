@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kristu Jayanti College,K. Narayanapura, Kothanur (Post) Bengaluru ā€“ 560077, Karnataka, Tel. 080-28465611 / 28465770 e-mail : info@kristujayanti.com www.kristujayanti.edu.in " />
+    <meta name="keywords" content="Best College, Top Commerce college, Top ranked arts and Science College, autonomous college, B.Com Admission, BCA Admission, BBM Admission,  MBA admission, MCA  admission,  Psychology admission, Journalism Admission,  Biotechnology college etc., Kristu Jayanti SRS, Student Research Symposium," />
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="./assets/KJC_logo_small.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" /> -->
+
+    <!-- Open Sans for body font -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    Montserrat for title 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        *{
+            scroll-behavior: smooth;
+            scroll-margin-top: 4.5rem;
+            font-family: 'Carrois Gothic', sans-serif;
+        }
+    </style>
+    
+    <title>SRS-2023</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+
+    <!-- <div id="root"></div> -->
+
+    <!----  NAVBAR ----->
+
+        <div id="navbar" class='w-full fixed flex justify-center items-center bg-[#124e4b] h-[3rem] md:h-[4rem] lg:h-[4.5rem] px-5 py-2 md:px-[4rem] md:py-[2.4rem] lg:px-[4rem] lg:py-[1rem] z-40 shadow-md hidden'>
+            <div class="inner-div w-full flex justify-between items-center">
+
+                <div class="logo-container w-[8rem] md:w-[16rem] lg:w-[14rem] 2xl:w-[20rem] h-[2rem] md:h-[4rem] lg:h-[4rem] flex align-center justify-center">
+                    <a href='https://kristujayanti.edu.in' target='_blank' class="logo flex align-center justify-center">
+                        <img src="./assets/kjc-logo.png" alt="" class='object-contain'/>
+                    </a>
+                </div>
+
+                <div class="list-items lg:h-[4rem]">
+                    <ul class="hidden md:hidden lg:flex lg:h-full gap-2 text-gray-200 items-center justify-center text-[1rem] lg:text-[0.8rem] 2xl:text-[1rem] lg:gap-4 2xl:gap-9 lg:p-2">
+                        <li class='hover:text-[#8ae4b8]'><a href="#home">Home</a></li>
+                        <li class='hover:text-[#8ae4b8]'><a href="#about">About SRS</a></li>
+                        <li class='hover:text-[#8ae4b8]'><a href="#dates">Important Dates</a></li>
+                        <li class='hover:text-[#8ae4b8]'><a href="#college">College</a></li>
+                        <li class='hover:text-[#8ae4b8]'><a href="#department">Department</a></li>
+                        <li class='hover:text-[#8ae4b8]'><a href="#callforpapers">Call for Papers</a></li>
+                        <li class='hover:text-[#8ae4b8]'><a href="#register">Register</a></li>
+                        <li class='hover:text-[#8ae4b8]'><a href="#committee">Committee</a></li>
+                        <li class='hover:text-[#8ae4b8]'><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class='flex md:block lg:hidden text-3xl align-center justify-center rounded'>
+                       
+                        <button id="dropdownDividerButton" onClick="handleClick()" class="text-white focus:ring-2 focus:outline-none font-medium rounded-lg text-sm px-[0.6rem] md:px-[1rem] py-2.5 text-center inline-flex items-center" type="button">
+                            <svg class="w-5 h-5 md:w-7 lg:h-6 text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
+                            </svg>
+                        </button>
+
+                        <!-- {/* Dropdown menu */} -->
+                        <div id="dropdownDivider" class="z-[60] hidden mt-[3rem] md:mt-[1.3rem] ml-[-6.3rem] md:ml-[-9.6rem] divide-y divide-white rounded-lg shadow w-44 md:w-[17rem] bg-[#144853]">
+                            <ul class="py-2 text-sm text-gray-200 leading-snug">
+                                <li class='px-2 md:px-4'><a href="#home" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>Home</a></li>
+                                <li class='px-2 md:px-4'><a href="#about" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>About SRS</a></li>
+                                <li class='px-2 md:px-4'><a href="#dates" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>Important Dates</a></li>
+                                <li class='px-2 md:px-4'><a href="#college" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>College</a></li>
+                                <li class='px-2 md:px-4'><a href="#department" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>Department</a></li>
+                                <li class='px-2 md:px-4'><a href="#callforpapers" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>Call for Papers</a></li>
+                                <li class='px-2 md:px-4'><a href="#register" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>Register</a></li>
+                                <li class='px-2 md:px-4'><a href="#committee" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>Committee</a></li>
+                                <li class='px-2 md:px-4'><a href="#contact" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>Contact</a></li>
+                                <li class='px-2 md:px-4'><a target="_blank" rel="nofollow" href="./assets/SRS_2023_brochure.pdf" class='block px-2 md:px-4 py-2 md:py-4 hover:bg-[#2b5a7b] rounded'>Download Brochure</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- END OF NAVBAR -->
+
+    <!-- HOME PAGE  -->
+
+        <div id='home' class='text-2xl w-full bg-gradient-to-b from-[#008080ef] to-[#1B9C85ef]  flex items-center justify-center px-3 md:px-14 lg:px-[4rem] 2xl:px-[14rem]'>
+            <div class="fixed top-0 h-screen z-[-1]"><img src="./assets/banner.jpg" class='h-full object-cover' alt="" /></div>
+            <div class="inner-container w-full flex flex-col gap-10 py-[2rem] items-center justify-center">
+                <div class="herotexts w-full flex flex-col gap-2 md:gap-2 lg:gap-4 items-center">
+                    <span class='h-auto w-full md:h-[5rem] lg:h-[auto] lg:w-[59rem] px-[3rem] md:px-[6rem] lg:px-[16rem] items-center'>
+                        <img src="./assets/kjc-logo.png" alt="" class='w-full h-full object-contain'/>
+                    </span>
+                    <span class="text-slate-200 uppercase text-[0.9rem] mt-4 lg:mt-6 md:text-[1.4rem] lg:text-[1.8rem] font-light text-center">Department of Computer Science [PG]</span>
+                    <div class="flex justify-center items-center mt-2">
+                        <div class='h-[1.5rem] md:h-[2.5rem] lg:h-[3rem] lg:aspect-[5] px-2 lg:px-10'><img class="h-full object-fill" src="./assets/ieee_bnglr.png" alt="" /></div>
+                        <div class='h-[1.5rem] md:h-[2.5rem] lg:h-[3rem] lg:aspect-[5] px-2 lg:px-10'><img class="h-full object-fill" src="./assets/ieee.png" alt="" /></div>
+                    </div>
+                    <span class="text-slate-200 uppercase text-[0.8rem] md:text-[1.2rem] lg:text-[1.4rem] font-light leading-4 md:leading-8 lg:leading-9">Organizes</span>
+                    <span class="text-slate-200 uppercase text-[1.5rem] md:text-[2rem] lg:text-[3rem] font-light tracking-wider text-center mb-4 leading-normal drop-shadow-lg">National Student Research Symposium</span>
+                    <span class="text-[1rem] md:text-[1.1rem] lg:text-[1.4rem] md:mt-4 lg:mt-3 bg-slate-100 px-4 lg:py-1 rounded-full">18<sup>th</sup> October 2023</span>
+                </div>
+
+                <div class="speakers w-full px-4 2xl:px-0 flex flex-col lg:flex-row">
+
+                        <div class="speaker shadow-lg flex-1 my-2 md:my-2 lg:mx-[1.5rem] 2xl:mx-[1rem] px-4 rounded-lg w-full bg-[#7cc6bd] border-4 border-[#daf8f8]">
+                            <div class="cardspeaker flex flex-col gap-2 py-2 lg:py-4">
+                                <h2 class="text-center font-normal text-[1.3rem] lg:text-[1.5rem] text-green-900">Inauguration & Keynote Session</h2>
+                                <div class="image h-[9rem] md:h-[12rem] lg:h-[10rem] flex items-center justify-center"><img class='h-full' src="./assets/AyyanarJeyakrushnan.jpeg" alt="" /></div>
+                                <span class="content text-center leading-8">
+                                    <h1 class='text-[1.1rem] font-bold text-green-900'>Chief Guest</h1>
+                                    <h2 class='text-[1.3rem] 2xl:text-[1.5rem] font-bold text-teal-600 '>Mr. Ayyanar Jeyakrishnan</h2>
+                                    <div class="flex flex-col px-4 py-1rem rounded-lg">
+                                        <p class='text-[0.95rem] 2xl:text-[1.2rem]'>Vice President & Principal Engineer</p>
+                                        <p class='text-[0.95rem] 2xl:text-[1.2rem]'>Wells Fargo, Bengaluru</p>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="speaker shadow-lg flex-1 my-2 md:my-2 lg:mx-[1.5rem] 2xl:mx-[1rem] px-4 rounded-lg w-full bg-[#7cc6bd] border-4 border-[#daf8f8]">
+                            <div class="cardspeaker flex flex-col gap-2 py-2 lg:py-4">
+                                <h2 class="text-center font-normal text-[1.3rem] lg:text-[1.5rem] text-green-900">Technical Session</h2>
+                                <div class="image h-[9rem] md:h-[12rem] lg:h-[10rem] flex items-center justify-center"><img class='h-full' src="./assets/prajwalnh.jpeg" alt="" /></div>
+                                <span class="content text-center leading-8">
+                                    <h1 class='text-[1.1rem] font-bold text-green-900'></h1>
+                                    <h2 class='text-[1.3rem] 2xl:text-[1.5rem] font-bold text-teal-600 '>Mr. Prajwal N H</h2>
+                                    <div class="flex flex-col px-4 py-1rem rounded-lg">
+                                        <p class='text-[0.95rem] 2xl:text-[1.2rem]'>Co-Founder & CPO at CloudAttack,</p>
+                                        <p class='text-[0.95rem] 2xl:text-[1.2rem]'>Microsoft Certified AI Engineer & Azure Administrator,<br /> Bengaluru</p>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="herotexts w-full flex flex-col gap-2 md:gap-2 lg:gap-4 items-center">
+                    <a target="_blank" rel="nofollow" href="./assets/SRS_2023_brochure.pdf" class='text-[1rem] bg-[#d8fcf5] hover:bg-[#9eeddd] px-3 lg:px-4 rounded'>Download Brochure</a>
+                </div>
+            </div>
+
+        </div>
+    <!-- END OF HOME PAGE -->
+
+
+
+    <!-- ABOUT PAGE  -->
+
+        <div id='about' class='text-2xl w-full bg-[rgb(236,238,241)] flex items-center justify-center px-3 md:px-14 lg:px-[4rem] 2xl:px-[14rem] py-[2rem] lg:py-[3rem]'>
+            <div class="inner-container w-full flex flex-col lg:flex-row px-2 lg:px-0 gap-6 py-[2rem] items-center justify-center">
+                <div class="imagediv w-full lg:w-[50%] h-full lg:mr-5 bg-inherit flex-1">
+                    <div class="slider w-full h-full">
+                        <img src="./assets/srs_img1.jpg" alt="srs related image" />
+                        <img src="./assets/srs_img2.jpg" alt="srs related image" />
+                        <img src="./assets/srs_img3.jpg" alt="srs related image" />
+                    </div>
+                </div>
+                <div class="w-full lg:w-[50%] content flex-1">
+                    <h1 class='text-2xl md:text-4xl lg:text-4xl font-medium'>Student Research Symposium</h1>
+                    <span class="text-justify text-[1rem] md:text-[1rem] lg:text-[1.1rem] font-lighter flex flex-wrap gap-2 my-2 leading-7">
+                        <p>The Student Research Symposium is a great opportunity for students to disseminate new knowledge acquired through their research experiences to a broad audience.</p>
+                        <p>The symposium also promotes healthy interaction between the students and research scholars of various institutes.</p>
+                        <p>The main objective of this symposium is to provide a forum which allows exchanging knowledge, experience, results and information related to various aspect of the emerging technologies.</p>
+                    </span>
+                    <h3 class='text-lg md:text-xl lg:text-2xl font-medium mb-2'>Program Highlights</h3>
+                    <ul class='text-[1rem] md:text-[1rem] lg:text-[1.1rem] list-disc px-6  leading-7'>
+                        <li>Keynotes and invited talks by eminent personalities.</li>
+                        <li>Oral presentations.</li>
+                        <li>Paper publications in proceedings with ISBN and
+                            selected papers will be published in Kristu Jayanti
+                            Journal of Computational Sciences (KJCS) ISSN:
+                            2583-6072.</li>
+                        <li>Certificate will be issued to the registered participants.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- END OF ABOUT PAGE -->
+
+
+
+    <!-- Important dates PAGE  -->
+
+        <div id='dates' class='bg-gradient-to-t from-[#0f816a] to-[#008080] text-2xl w-full flex items-center justify-center px-3 md:px-14 lg:px-[4rem] 2xl:px-[14rem] py-[2rem] lg:py-[3rem]'>
+            <div class="inner-container w-full flex flex-col gap-6 py-[2rem] items-center justify-center">
+                <h1 class='text-slate-200 text-2xl md:text-4xl lg:text-4xl font-medium'>Important Dates</h1>
+                <div class="timeline w-full px-2 lg:px-[10rem] flex flex-col justify-center">
+
+                    <ul class="w-full flex flex-col gap-4 items-center justify-center px-2 lg:px-4">
+                        <li class="flex gap-4 bg-white rounded-md px-4 py-2 w-full md:w-[25rem] lg:w-[40rem] h-[5rem] lg:h-[7rem]">
+                            <div class="date flex flex-col items-center justify-center rounded-md border-2 lg:border-4 border-[#30a1a1] w-[4.5rem] h-[4rem] lg:h-full lg:w-[6rem] aspect-[3]">
+                                <span class='text-[0.8rem] lg:text-[1rem] leading-5'>2023 Sep</span>
+                                <span class='text-[1rem] lg:text-[2rem] text-gray-800 font-bold leading-5 lg:leading-snug'>27</span>
+                                <span class='text-[0.8rem] lg:text-[1rem] leading-5'>Wednesday</span>
+                            </div>
+                            <div class="details h-full w-full">
+                                <div class='w-full h-full text-[0.9rem] lg:text-[1.1em] flex items-center leading-snug'>Last date for paper submission</div>
+                            </div>
+                        </li>
+
+                        <li class="flex gap-4 bg-white rounded-md px-4 py-2 w-full md:w-[25rem] lg:w-[40rem] h-[5rem] lg:h-[7rem]">
+                            <div class="date flex flex-col items-center justify-center rounded-md border-2 lg:border-4 border-[#30a1a1] w-[4.5rem] h-[4rem] lg:h-full lg:w-[6rem] aspect-[3]">
+                                <span class='text-[0.8rem] lg:text-[1rem] leading-5'>2023 Oct</span>
+                                <span class='text-[1.2rem] lg:text-[2rem] text-gray-800 font-bold leading-5 lg:leading-snug'>05</span>
+                                <span class='text-[0.8rem] lg:text-[1rem] leading-5'>Thursday</span>
+                            </div>
+                            <div class="details h-full w-full">
+                                <div class='w-full  h-full text-[0.9rem] lg:text-[1.1em] flex items-center leading-snug'>Author notification</div>
+                            </div>
+                        </li>
+
+                        <li class="flex gap-4 bg-white rounded-md px-4 py-2 w-full md:w-[25rem] lg:w-[40rem] h-[5rem] lg:h-[7rem]">
+                            <div class="date flex flex-col items-center justify-center rounded-md border-2 lg:border-4 border-[#30a1a1] w-[4.5rem] h-[4rem] lg:h-full lg:w-[6rem] aspect-[3]">
+                                <span class='text-[0.8rem] lg:text-[1rem] leading-5'>2023 Oct</span>
+                                <span class='text-[1.2rem] lg:text-[2rem] text-gray-800 font-bold leading-5 lg:leading-snug'>10</span>
+                                <span class='text-[0.8rem] lg:text-[1rem] leading-5'>Tuesday</span>
+                            </div>
+                            <div class="details h-full w-full">
+                                <div class='w-full h-full text-[0.9rem] lg:text-[1.1em] flex items-center leading-snug'>Last date for author registration</div>
+                            </div>
+                        </li>
+
+                        <li class="flex gap-4 bg-white rounded-md px-4 py-2 w-full md:w-[25rem] lg:w-[40rem] h-[5rem] lg:h-[7rem]">
+                            <div class="date flex flex-col items-center justify-center rounded-md border-2 lg:border-4 border-[#30a1a1] w-[4.5rem] h-[4rem] lg:h-full lg:w-[6rem] aspect-[3]">
+                                <span class='text-[0.8rem] lg:text-[1rem] leading-5'>2023 Oct</span>
+                                <span class='text-[1.2rem] lg:text-[2rem] text-gray-800 font-bold leading-5 lg:leading-snug'>18</span>
+                                <span class='text-[0.8rem] lg:text-[1rem] leading-5'>Wednesday</span>
+                            </div>
+                            <div class="details h-full w-full">
+                                <div class='w-full h-full text-[0.9rem] lg:text-[1.1em] flex items-center leading-snug'>Student Research Symposium</div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    <!-- END OF Important dates PAGE -->
+
+
+
+    <!-- COLLEGE DETAIL PAGE  -->
+
+        <div id='college' class='text-2xl w-full bg-[rgb(236,238,241)] flex items-center justify-center px-3 md:px-14 lg:px-[4rem] 2xl:px-[14rem] py-[2rem] lg:py-[3rem]'>
+            <div class="inner-container w-full flex flex-col-reverse lg:flex-row px-2 lg:px-0 gap-6 py-[2rem] items-center justify-center">
+
+                <div class="content w-full lg:w-[50%] h-full lg:mr-5 flex-1">
+                    <h1 class='text-2xl md:text-4xl lg:text-4xl font-medium mb-4'>Kristu Jayanti College</h1>
+                    <span class="text-justify text-[1rem] md:text-[1rem] lg:text-[1.1rem] font-lighter flex flex-wrap gap-2 my-2 leading-7">
+                        <p>Kristu Jayanti College, founded in 1999, is managed by "BODHI
+                            NIKETAN TRUST", formed by the members of St. Joseph Province of the
+                            Carmelites of Mary Immaculate (CMI). The College is affiliated to
+                            Bengaluru North University and is reaccredited with grade 'A++' in 2021
+                            by NAAC in the Third Cycle of Accreditation. The college is recognized by
+                            UGC under the category 2(f) & 12(B). The College has been accorded
+                            Autonomous Status since 2013 by the University Grants Commission, the
+                            Government of Karnataka & Bangalore University. In the NIRF 2023
+                            colleges rankings, the college was placed among the top 100-150 colleges in
+                            the country and ranks as one of the five colleges from Karnataka. The
+                            programmes of School of Management are internationally accredited by
+                            the Accreditation Council for Business Schools and Programs [ACBSP,
+                            USA]. The college was accorded ‘DBT Star College status under the
+                            strengthening component’ by the Department of Biotechnology, the
+                            Ministry of Science & Technology and the Government of India. The
+                            institution received first prize at the National Level for ‘Clean and Smart
+                            Campus Award’ from Shri. Dharmendra Pradhan, Minister of Education,
+                            Govt. of India. In the India Today - MDRA survey 2023, Kristu Jayanti
+                            College, Bengaluru is consecutively ranked as the Best Emerging College of
+                            the Century at National Level for Commerce, Science, Arts and Social
+                            Work. At the National level, the survey ranked the college as 4th Best in
+                            BCA, 12th Best in MSW, 20th Best in Arts, 21st Best in BBA, 22nd Best in
+                            Commerce, 28th Best in Science and Mass Communication Programmes.
+                            The College is ranked as 2nd best in MSW, 3rd best in Commerce, Arts &
+                            BCA, 4th best in Science, 6th best in Mass Communication and 7th best in
+                            BBA programmes among the colleges in Bengaluru.
+                        </p>
+                        <p>The institution strives to fulfil its mission to provide educational opportunities to all aspiring youth to excel in life by developing academic excellence, fostering values, creating civic responsibility, inculcating environmental concern and building global competencies in a dynamic environment.</p>
+                    </span>
+                </div>
+
+                <div class="imagediv w-full lg:w-[50%] content flex-1">
+                    <div class="slider w-full h-full">
+                        <img src="./assets/college_img1.jpg" alt="college image" />
+                        <img src="./assets/college_img2.jpg" alt="college image" />
+                        <img src="./assets/college_img3.png" alt="college image" />
+                        <!-- <video src="./assets/college.mp4" autoplay></video> -->
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    <!-- END OF COLLEGE DETAIL PAGE -->
+
+
+
+    <!-- DEPARTMENT DETAIL PAGE  -->
+        <div id='department' class='text-2xl w-full bg-gradient-to-b from-[#0f816a] to-[#008080] flex items-center justify-center px-3 md:px-14 lg:px-[4rem] 2xl:px-[14rem] py-[2rem] lg:py-[3rem]'>
+            <div class="inner-container w-full flex flex-col lg:flex-row px-2 lg:px-0 gap-6 py-[2rem] items-center justify-center">
+
+                <div class="imagediv w-full lg:w-[50%] h-full lg:mr-5 flex-1">
+                    <div class="slider w-full h-full">
+                        <img src='./assets/department_img_1.jpg' alt="department image" />
+                        <img src='./assets/department_img_2.jpg' alt="department image" />
+                        <img src='./assets/department_img_3.jpeg' alt="department image" />
+                        <img src='./assets/department_img_4.jpg' alt="department image" />
+                        <!-- Add more images as needed   -->
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-[50%] content flex-1 text-slate-100">
+                    <h1 class='text-2xl md:text-3xl lg:text-4xl font-medium mb-4'>Department of Computer Science [PG]</h1>
+                    <span class="text-justify text-[1rem] md:text-[1rem] lg:text-[1.1rem] font-lighter flex flex-wrap gap-2 my-2 leading-7">
+                        <p>Kristu Jayanti College offers Master’s Degree in Computer Application
+                        Computer Science and Data Science with the intention to produce
+                        competitive computer professionals in tune with advanced technical
+                        concepts. Our MCA and Msc Computer Science course is a two year full
+                        time programme spanning four semesters. MCA is affiliated to the Bengaluru
+                        North University and approved by the All India Council for Technical
+                        Education (AICTE). The main objective of the programme is to develop the
+                        desire to pursue continued professional development by seeking out
+                        knowledge and experience beyond the classroom. The Programme focuses on
+                        the subjects at an application level and includes topics like Advanced
+                        Database Management Systems, Operating Systems, Computer Networks,
+                        Software Engineering, Artificial intelligence, Software Testing, Web
+                        Technologies, Data Mining, Data Analytics and various open source
+                        software’s. The focused training given on these topics helps the students to
+                        adapt themselves to the growing demand of modern IT Industry. Students
+                        work in an integrated environment that enables them to access the resources
+                        effectively for their academic and research oriented purposes</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    <!-- END OF DEPARTMENT DETAIL PAGE -->
+
+
+
+    <!-- CALL FOR PAPERS  -->
+        <div id='callforpapers' class='text-2xl w-full bg-[rgb(236,238,241)] flex items-center justify-center px-3 md:px-14 lg:px-[4rem] 2xl:px-[14rem] py-[2rem] lg:py-[3rem]'>
+            <div class="inner-container w-full flex flex-col px-2 lg:px-0 py-[2rem] items-center justify-center">
+                <h1 class='text-2xl md:text-4xl lg:text-4xl font-medium'>Call for Papers</h1>
+                <p class='text-justify text-[1rem] md:text-[1rem] lg:text-[1.1rem] font-lighter flex flex-wrap gap-2 my-2 leading-7'>The scope of the symposium covers paper presentations on scientific, technological, and practical concepts and offers a distinctive opportunity for students to exchange ideas. Authors are solicited to contribute to the Research Symposium by submitting articles that illustrate research results, projects, survey works and industrial experiences that describe significant advances in the following areas but are not limited.</p>
+                <div class="w-full px-[3rem] lg:px-[3rem] 2xl:px-[4rem] my-4 leading-7">
+
+                    <ul class="list-disc text-[1rem] md:text-[1rem] lg:text-[1.1rem] font-lighter leading-7 grid grid-cols-1 md:grid-cols-2 md:gap-x-10 lg:grid-cols-3 lg:gap-x-16">
+                        <li>Artificial Intelligence</li>
+                        <li>Text Mining</li>
+                        <li>Robotic Process Automation</li>
+                        <li>Web Mining</li>
+                        <li>Edge Computing</li>
+                        <li>Image Processing</li>
+                        <li>Quantum Computing</li>
+                        <li>Roof Computing</li>
+                        <li>Cognitive Computing</li>
+                        <li>Fog Computing</li>
+                        <li>Parallel Computing</li>
+                        <li>Internet of Things</li>
+                        <li>VR and AR</li>
+                        <li>5G</li>
+                        <li>Cloud Computing</li>
+                        <li>Cyber Security</li>
+                        <li>Bioinformatics</li>
+                        <li>Blockchain</li>
+                        <li>Big Data analytics</li>
+                        <li>Computer-Assisted Education</li>
+                    </ul>
+                </div>
+                
+                <p class='text-justify text-[1rem] md:text-[1rem] lg:text-[1.1rem] font-lighter flex flex-wrap gap-2 my-2 leading-7'>We invite Master’s and Engineering (MCA, M.Sc., M. E, M. Tech, M.Phil., B. E, B. Tech) students to submit original unpublished contributions for the presentation. Plagiarism in any form will lead to outright rejection of the paper.</p>
+                <p class='text-justify text-[1rem] md:text-[1rem] lg:text-[1.1rem] font-lighter flex flex-wrap gap-2 my-2 leading-7'>Authors are requested to submit their papers on or before 27th September , 2023. The submission link can be found below. Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated in this symposium. The papers should be based on original work that should typically include a clear description of the problem being addressed, an overview of and comparison to related work, the theoretical framework/model proposed by the authors, experimental results, and conclusions. Papers will be reviewed by a review committee which will ensure that only quality papers with originality and novelty are accepted for presentation in the symposium.</p>
+                <h3 class='text-2xl lg:text-3xl font-medium mb-4 mt-4'>Submission Guidelines</h3>
+                <ul class='bg-gray-300 rounded-lg p-4 w-full text-[1rem] md:text-[1rem] lg:text-[1.1rem] list-disc px-8 text-justify flex flex-col gap-2 leading-7'>
+                    <li>Papers can have maximum 8 pages and must be prepared in IEEE double column format.</li>
+                    <li>Maximum 3 authors per paper are allowed.</li>
+                    <li>Authors can download the paper template to submit the papers from the following: <br/>
+                        <a rel="nofollow" href="./assets/template1.docx" class='flex flex-col lg:flex-row lg:gap-4 lg:px-4 lg:py-2 break-words leading-7'>
+                            <b class='text-[1rem] md:text-[1rem] lg:text-lg'>www.kristujayanti.edu.in/srs/template.docx</b>
+                            <span class="click-here text-blue-500 lg:hover:underline">Click Here</span>
+                        </a>
+                    </li>
+                    <li> All the accepted and presented papers of the duly registered authors will be published in the Peer-Reviewed/UGC-CARE/Scopus indexed journals with additional publication charges.</li>
+                    <li>Paper submission can be done through Easy Chair submission system:<br />
+                        <a target="_blank" rel="nofollow" href="https://easychair.org/conferences/?conf=srs20231" class='flex flex-col lg:flex-row lg:gap-4 lg:px-4 lg:py-2 leading-7'>
+                            <b>https://easychair.org/conferences/?conf=srs20231</b>
+                            <span class="click-here text-blue-500 lg:hover:underline">Click Here</span>
+                        </a>
+                        <b>OR</b>
+                        <br/><span>Mail your submission to</span><br />
+                        <b class='lg:px-4 lg:py-2'><a href="mailto:srs-mca@kristujayanti.com" class='px-6 underline'>srs-mca@kristujayanti.com</a></b>
+                    </li>
+                    <li> Violations of any of the above specifications may result in rejection of your paper.</li>
+                </ul>
+            </div>
+        </div>
+    <!-- END OF CALL FOR PAPERS -->
+
+    <!-- REGISTRATION PAGE  -->
+        <div id='register' class='text-2xl w-full bg-gradient-to-b from-[#0f816a] to-[#008080] flex items-center justify-center px-3 md:px-14 lg:px-[4rem] 2xl:px-[14rem] py-[2rem] lg:py-[3rem]'>
+            <div class="inner-container w-full flex flex-col gap-6 py-[2rem] items-center justify-center text-slate-50 p-2">
+                <h1 class='text-2xl md:text-4xl lg:text-4xl font-medium'>Register</h1>
+                <!-- {/* <p class='text-justify text-[1rem] md:text-[1.2rem] lg:text-[1.2rem] font-lighter'>The scope of the symposium covers paper presentations on scientific, technological, and practical concepts and offers a distinctive opportunity for students to exchange ideas. Authors are solicited to contribute to the Research Symposium by submitting articles that illustrate research results, projects, survey works and industrial experiences that describe significant advances in the following areas but are not limited.</p> */} -->
+                <p class="text-justify text-[1rem] md:text-[1rem] lg:text-[1.1rem] font-lighter flex flex-wrap gap-2 my-2 leading-7">The registration fee payable by the author(s) of the paper is given below.</p>
+                <div class="py-0 px-4 md:py-0 md:px-4 lg:py-1 lg:px-[5rem] rounded-lg  text-slate-50 text-center">
+                    <ul class="mb-4 text-left">
+                        <li class="text-lg lg:text-xl flex justify-between"><span>Paper Presentation </span><span>: INR 300 *</span></li>
+                        <li class="text-lg lg:text-xl flex justify-between"><span>Participant </span><span>: INR 200 *</span></li>
+                    </ul>
+                    <p class="text-sm md:text-md lg:text-lg">* inclusive of Lunch, Registration kit & GST.</p>
+                    <div class='flex text-sm md:text-md lg:text-xl items-center p-4 gap-4'>
+                        <p class='text-justify text-[1rem] md:text-[1rem] lg:text-[1.1rem] font-lighter flex flex-wrap gap-2 my-2 leading-7'>Author Registration: </p>
+                        <a href="https://portal.kristujayanti.edu.in/register-national-level-student-research-symposium-2" class="bg-[#52ff52] lg:bg-transparent text-[#2a4560] lg:text-[#52ff52] lg:border-2 rounded lg:border-[#52ff52] py-2 px-6 md:py-2 md:px-10 font-normal tracking-wider lg:py-3 lg:px-14 transition-all delay-75 hover:bg-[#52ff52] hover:text-[#2a4560]">
+                            Register
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    <!-- END OF REGISTRATION PAGE -->
+
+
+
+    <!-- ORGANISING COMMITTEE PAGE  -->
+        <div id='committee' class='text-2xl w-full bg-[rgb(236,238,241)] flex items-center justify-center px-3 md:px-14 lg:px-[4rem] 2xl:px-[14rem] py-[2rem] lg:py-[3rem]'>
+            <div class="inner-container w-full flex flex-col px-2 lg:px-0 gap-6 py-[2rem] items-center justify-center">
+                <h1 class='text-2xl md:text-4xl lg:text-4xl font-medium'>Organising Committee</h1>
+                <div class="members w-full px-auto">
+                    <ul class="flex flex-col gap-2 md:grid lg:grid md:grid-cols-3 lg:grid-cols-3 md:gap-x-6 md:gap-y-6 lg:gap-x-6 lg:gap-y-6">
+                        <li>                        
+                            <div class="block p-5 h-auto md:h-[10rem] lg:h-[10rem] bg-white rounded-lg shadow text-center">
+                                <h5 class="mb-2 text-lg md:text-xl lg:text-2xl font-normal tracking-tight underline text-gray-800">Chief Patron</h5>
+                                <p class="font-normal text-[1.2rem] md:text-lg lg:text-lg text-gray-800 ">Fr. Dr. Augustine George</p>
+                                <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400 ">Principal</p>
+                            </div>
+                        </li>
+                        <li>                        
+                            <div class="block p-5 h-auto md:h-[10rem] lg:h-[10rem] bg-white rounded-lg shadow text-center">
+                                <h5 class="mb-2 text-lg md:text-xl lg:text-2xl font-normal tracking-tight underline text-gray-800">Chair Person</h5>
+                                <p class="font-normal text-[1.2rem] md:text-lg lg:text-lg text-gray-800 ">Dr. Calistus Jude A L</p>
+                                <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400 ">Dean, Faculty of Sciences</p>
+                            </div>
+                        </li>
+                        <li>                        
+                            <div class="block p-5 h-auto md:h-[10rem] lg:h-[10rem] bg-white rounded-lg shadow text-center">
+                                <h5 class="mb-2 text-lg md:text-xl lg:text-2xl font-normal tracking-tight underline text-gray-800">Chief Convenor</h5>
+                                <p class="font-normal text-[1.2rem] md:text-lg lg:text-lg text-gray-800 ">Dr. Kumar R</p>
+                                <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400 ">Professor & Head, Department of Computer Science [PG]</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="mt-6 flex flex-col gap-2 md:grid lg:grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 md:gap-y-6 lg:gap-x-6 lg:gap-y-6">
+                        <li class='w-full md:w-[calc(100vw-8rem)] lg:w-[calc(100vw-8rem)] 2xl:w-[calc(100vw-28rem)]'>                        
+                            <div class="block w-full p-5 h-auto rounded-lg shadow bg-white">
+                                <h5 class="mb-4 text-lg md:text-xl lg:text-2xl font-medium tracking-tight underline text-gray-700">Faculty Convenors</h5>
+                                <ul class="w-full flex flex-col gap-2 md:grid lg:grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 md:gap-y-6 lg:gap-x-6 lg:gap-y-6">
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Dr. Aruna Devi K</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Ms. Reeja Jose Pavanathil</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <ul class="w-full mt-6 flex flex-col gap-2 md:grid lg:grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 md:gap-y-6 lg:gap-x-6 lg:gap-y-6">
+                        <li class='w-full md:w-[calc(100vw-8rem)] lg:w-[calc(100vw-8rem)] 2xl:w-[calc(100vw-28rem)]'>                        
+                            <div class="block w-full p-5 h-auto rounded-lg shadow bg-white">
+                                <h5 class="mb-4 text-lg md:text-xl lg:text-2xl font-medium tracking-tight underline text-gray-700">Advisory Committee</h5>
+                                <ul class="w-full flex flex-col gap-2 md:grid lg:grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 md:gap-y-6 lg:gap-x-6 lg:gap-y-6">
+                                    <li>
+                                        <div class="block max-w-sm p-3 h-auto md:h-[7rem] lg:h-[7rem] bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Fr. Lijo P Thomas</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400 ">Vice Principal & Chief Finance Officer</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block max-w-sm p-3 h-auto md:h-[7rem] lg:h-[7rem] bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Fr. Som Zacharia</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400 ">Director, Infrastructure Planning and Development</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block max-w-sm p-3 h-auto md:h-[7rem] lg:h-[7rem] bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Fr. Emmanuel P. J</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400 ">Director, Kristu Jayanti College of Law</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block max-w-sm p-3 h-auto md:h-[7rem] lg:h-[7rem] bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Fr. Jais V Thomas</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400 ">Financial Administrator</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block max-w-sm p-3 h-auto md:h-[7rem] lg:h-[7rem] bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Fr. Joshy Mathew</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400 ">Director, Library and Information Centre</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block max-w-sm p-3 h-auto md:h-[7rem] lg:h-[7rem] bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Fr. Deepu Joy</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400 ">Director, Student Welfare Office</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="w-full mt-6 flex flex-col gap-2 md:grid lg:grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 md:gap-y-6 lg:gap-x-6 lg:gap-y-6">
+                        <li class='w-full md:w-[calc(100vw-8rem)] lg:w-[calc(100vw-8rem)] 2xl:w-[calc(100vw-28rem)]'>                        
+                            <div class="block w-full p-5 h-auto rounded-lg shadow bg-white">
+                                <h5 class="mb-4 text-lg md:text-xl lg:text-2xl font-medium tracking-tight underline text-gray-700">Faculty Members</h5>
+                                <ul class="w-full flex flex-col gap-2 md:grid lg:grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 md:gap-y-6 lg:gap-x-6 lg:gap-y-6">
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Dr. Velmurugan R</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Dr. Muruganantham A</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Dr. Vinothina V</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Dr. Ranjitha M</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Ms. Divya M O</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Dr. Nirmala Devi K</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Dr. Bharathi V</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Mr. Prakash K</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Mr. Tomin Joseph</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Mr. Jeo Joy</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Mr. Sevuga Pandian</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Mr. Bino Joseph</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">Associate Professor</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            </li>
+                    </ul>
+                    
+                    <ul class="w-full mt-6 flex flex-col gap-2 md:grid lg:grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 md:gap-y-6 lg:gap-x-6 lg:gap-y-6">
+                        <li class='w-full md:w-[calc(100vw-8rem)] lg:w-[calc(100vw-8rem)] 2xl:w-[calc(100vw-28rem)]'>                        
+                            <div class="block w-full p-5 h-auto rounded-lg shadow bg-white">
+                                <h5 class="mb-4 text-lg md:text-xl lg:text-2xl font-medium tracking-tight underline text-gray-700">Student Convenors</h5>
+                                <ul class="w-full flex flex-col gap-2 md:grid lg:grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 md:gap-y-6 lg:gap-x-6 lg:gap-y-6">
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Mr. Francis Benildus R</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">II Year MCA</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">+91 9345389159</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Ms. Janani D</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">II Year M.Sc CS</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">+91 7795606590</p>
+                                        </div>
+                                    </li>
+                                    <li>                        
+                                        <div class="block max-w-sm p-3 bg-gray-50 rounded-lg border-2 border-gray-100 text-center">
+                                            <p class="font-normal text-[1.1rem] md:text-lg lg:text-lg text-gray-800 ">Ms. Jessica John</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">II Year MCA</p>
+                                            <p class="font-light text-sm md:text-md lg:text-[1rem] 2xl:text-lg text-gray-400">+91 6363984500</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- END OF ORGANISING COMMITTEE PAGE -->
+
+
+
+
+    <!-- CONTACT PAGE  -->
+        <div id='contact' class='text-2xl w-full bg-white flex items-center justify-center] pt-[2rem] lg:pt-[3rem]'>
+            <div class="inner-container w-full text-black flex flex-col gap-6 pt-[2rem] items-center justify-center">
+                <h1 class='text-2xl md:text-4xl lg:text-4xl font-medium'>Contact</h1>
+                <div class="text-center mb-6">
+                    <p class="text-sm md:text-lg lg:text-lg">Convenor — Student Research Symposium</p>
+                    <p class="text-sm md:text-lg lg:text-lg">Department of Computer Science (PG)</p>
+                    <p class="text-sm md:text-lg lg:text-lg">Kristu Jayanti College (Autonomous)</p>
+                    <p class="text-sm md:text-lg lg:text-lg">K. Narayanapura, Kothanur P.0,</p>
+                    <p class="text-sm md:text-lg lg:text-lg">Bengaluru — 560077, Karnataka</p><br />
+                    <p class="text-sm md:text-lg lg:text-lg">Phone: +91 628 247 9582, +91 755 981 6526</p>
+                    <p class="text-sm md:text-lg lg:text-lg">Email: <a href="mailto:srs-mca@kristujayanti.com" class="text-blue-500">srs-mca@kristujayanti.com</a></p>
+                    <p class="text-sm md:text-lg lg:text-lg">Website: <a href="https://www.kristujayanti.edu.in" class="text-blue-500" target="_blank" rel="noopener noreferrer">www.kristujayanti.edu.in</a></p>
+                </div>
+                
+                <!-- SOCIAL MEDIA ICONS -->
+                <div class="footer bg-gray-100 w-full flex flex-col items-center justify-center p-2 pt-6">
+                    <ul class="socialmedia flex gap-4 mb-0 lg:mb-2">
+                        <li class='w-[2rem] h-[2rem] text-sm md:w-[2.6rem] md:h-[2.6rem] md:text-lg lg:w-[3rem] lg:h-[3rem] lg:text-xl rounded-full border-gray-700 border flex items-center justify-center transition-all ease-in duration-200 hover:bg-gray-700 hover:text-white'><a href="https://www.facebook.com/KristuJayantiCollege" class='w-full h-full flex items-center justify-center'><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class='w-[2rem] h-[2rem] text-sm md:w-[2.6rem] md:h-[2.6rem] md:text-lg lg:w-[3rem] lg:h-[3rem] lg:text-xl rounded-full border-gray-700 border flex items-center justify-center transition-all ease-in duration-200 hover:bg-gray-700 hover:text-white'><a href="https://twitter.com/kristujayanti99" class='w-full h-full flex items-center justify-center'><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li class='w-[2rem] h-[2rem] text-sm md:w-[2.6rem] md:h-[2.6rem] md:text-lg lg:w-[3rem] lg:h-[3rem] lg:text-xl rounded-full border-gray-700 border flex items-center justify-center transition-all ease-in duration-200 hover:bg-gray-700 hover:text-white'><a href="http://in.linkedin.com/in/kristujayanti" class='w-full h-full flex items-center justify-center'><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class='w-[2rem] h-[2rem] text-sm md:w-[2.6rem] md:h-[2.6rem] md:text-lg lg:w-[3rem] lg:h-[3rem] lg:text-xl rounded-full border-gray-700 border flex items-center justify-center transition-all ease-in duration-200 hover:bg-gray-700 hover:text-white'><a href="https://www.youtube.com/user/kristujayanticollege" class='w-full h-full flex items-center justify-center'><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                    <p class='text-[0.7rem] lg:text-[1.2rem] font-thin text-gray-500'>&copy; Copyright 2021 <a href="https://kristujayanti.edu.in" target='_blank' class= 'font-light text-gray-800'>kristujayanti.edu.in</a>. All right reserved</p>
+                </div>
+            </div>
+        </div>
+    <!-- END OF CONTACT PAGE -->
+
+
+    <!-- JAVASCRIPT CODES ---------- -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+    // FOR IMAGE SLIDER 
+        $(document).ready(function(){
+            $('.slider').each(function(){
+            $(this).slick({
+                infinite: true, // Enable infinite scrolling
+                slidesToShow: 1, // Number of slides to show at a time
+                slidesToScroll: 1, // Number of slides to scroll
+                autoplay: true, // Enable autoplay
+                autoplaySpeed: 5000, // Autoplay speed in milliseconds (adjust as needed)
+                dots: false, // Show navigation dots
+                arrows: false, // Show navigation arrows
+                swipe: false, // restrict manual swipe scroll
+            });
+            });
+        });
+    
+    // FOR NAVBAR MENU ICON FOR SMALLER SCREEN
+        document.addEventListener('click', function(event) {
+            const dropdown = document.getElementById('dropdownDivider');
+            
+            // Check if the clicked element is not within the dropdown
+            if (!dropdown.contains(event.target)) {
+                dropdown.classList.remove('hidden');
+                dropdown.classList.remove('absolute');
+            }
+        });
+        function handleClick(){
+            document.getElementById('dropdownDivider').classList.toggle('hidden')
+            document.getElementById('dropdownDivider').classList.toggle('absolute')
+        }
+
+
+    // FOR GETTING SCROLL VALUE FOR DISPLAYING NAVBAR
+        window.onscroll = function(){
+            scrollfunction();
+        }
+        function scrollfunction(){
+        if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+            document.getElementById("navbar").classList.remove('hidden');
+        }
+        else{
+            document.getElementById("navbar").classList.add('hidden');
+        }
+        }
+        
+
+    </script>
+
+    <!-- <script type="module" src="./script.js"></script> -->
+    <!-- END OF JAVASCRIPT CODES -->
+  </body>
+</html>
