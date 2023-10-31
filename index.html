@@ -19,14 +19,7 @@
 
     
     <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="./style.css"> -->
-    <style>
-        *{
-            scroll-behavior: smooth;
-            scroll-margin-top: 4.5rem;
-            font-family: 'Carrois Gothic', sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
     
     <title>SRS-2023</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -678,57 +671,8 @@
     <!-- JAVASCRIPT CODES ---------- -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
 
-    // FOR IMAGE SLIDER 
-        $(document).ready(function(){
-            $('.slider').each(function(){
-            $(this).slick({
-                infinite: true, // Enable infinite scrolling
-                slidesToShow: 1, // Number of slides to show at a time
-                slidesToScroll: 1, // Number of slides to scroll
-                autoplay: true, // Enable autoplay
-                autoplaySpeed: 5000, // Autoplay speed in milliseconds (adjust as needed)
-                dots: false, // Show navigation dots
-                arrows: false, // Show navigation arrows
-                swipe: false, // restrict manual swipe scroll
-            });
-            });
-        });
-    
-    // FOR NAVBAR MENU ICON FOR SMALLER SCREEN
-        document.addEventListener('click', function(event) {
-            const dropdown = document.getElementById('dropdownDivider');
-            
-            // Check if the clicked element is not within the dropdown
-            if (!dropdown.contains(event.target)) {
-                dropdown.classList.remove('hidden');
-                dropdown.classList.remove('absolute');
-            }
-        });
-        function handleClick(){
-            document.getElementById('dropdownDivider').classList.toggle('hidden')
-            document.getElementById('dropdownDivider').classList.toggle('absolute')
-        }
-
-
-    // FOR GETTING SCROLL VALUE FOR DISPLAYING NAVBAR
-        window.onscroll = function(){
-            scrollfunction();
-        }
-        function scrollfunction(){
-        if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
-            document.getElementById("navbar").classList.remove('hidden');
-        }
-        else{
-            document.getElementById("navbar").classList.add('hidden');
-        }
-        }
-        
-
-    </script>
-
-    <!-- <script type="module" src="./script.js"></script> -->
+    <script type="module" src="./script.js"></script>
     <!-- END OF JAVASCRIPT CODES -->
   </body>
 </html>
